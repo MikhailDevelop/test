@@ -1,0 +1,15 @@
+<div class="calc">
+      <input type="text" class="input" value=""></input>
+      <button type="button" name="button" class="btn">button</button>
+    </div>
+
+    <script type="text/javascript">
+     var inp = document.getElementsByClassName('input')[0];
+     var text = document.getElementsByClassName('btn')[0].onclick = function() {
+          if(inp < 15) {
+            alert('yes')
+          } else {
+            alert('no')
+          }
+        }
+    </script>
